@@ -58,7 +58,7 @@ header button{
     margin-left: 30px;
     font-size: 1.3em;
     padding: 0%;
-    color: blueviolet;
+    color: rgb(132, 0, 255);
 }
 
 .apresentacao article strong{
@@ -75,6 +75,45 @@ header button{
     font-size: 3em;
     padding: 0;
     color: rgb(90, 18, 5);
+}
+.contato{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.contato div{
+    width:30%;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+     
+}
+
+.contato a{
+ padding: 10px;
+ text-decoration: none;
+ border: 1px greenyellow solid;
+ color:yellow solid ;
+ background-color: #b3bb6a;
+}
+
+.contato a:hover{
+    background-color: orangered;
+    transition-duration: 0.8s;
+}
+
+.contato article{
+    width:50%
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 .social{
@@ -138,6 +177,7 @@ header button{
     width: 80%;
     border-bottom-left-radius:200px;
     border-bottom-right-radius:200px;
+    border-radius: 50%;
     
 }
 
@@ -160,4 +200,30 @@ header button{
     border-bottom-left-radius:50%;
     border-bottom-right-radius:50%;
     background-size: cover;
+}
+.formulario{
+    width: 50%;
+    border: 1px royalblue solid;
+    display:column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato input{
+    width: 50%;
+    border: 1px green solid;
+    background-color: transparent;
+    color:rgb(0, 0, 0);
+    height: 30px;
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+::placeholder{
+    color:orangered
 }
